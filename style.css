@@ -1,6 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 body {
   font-family: 'Open Sans', sans-serif;
+  color: #fff;
   font-size: 16px;
-  line-height: 1.42;
+  line-height: 1.45;
+  background-color: #031920;
+  -webkit-font-smoothing: antialised;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.container {
+  margin: 0px auto;
+  width: 1148px;
+}
+
+.header {
+  height: 120px;
+  position: relative;
+  margin: 0px auto;
+  width: 1148px;
+  margin-bottom: 89px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 34px;
+  left: 0px;
+}
+
+.menu {
+  position: absolute;
+  top: 34px;
+  left: 420px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 62px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.contacts {
+  font-style: normal;
+  text-align: right;
+  position: absolute;
+  top: 27px;
+  right: 7px;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.contacts__workhors {
+  font-size: 13px;
+  line-height: 0.3;
+}
+
+.hello {
+  position: relative;
+  margin: 0px auto;
+  width: 1148px;
+  height: 375px;
+  margin-bottom: 190px;
+}
+
+.hello__container {
+  width: 637px;
+  height: 375px;
+  position: absolute;
+}
+
+.hello__title {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 21px;
+}
+
+.hello__text {
+  font-size: 21px;
+  line-height: 1.2;
+  margin-bottom: 76px;
+}
+
+.button {
+  background: #8F00FF;
+  border-radius: 5px;
+  padding: 18px 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.footer {
+  height: 120px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 0px;
+  width: 1148px;
 }
