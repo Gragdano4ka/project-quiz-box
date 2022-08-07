@@ -8,8 +8,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.main-page--wrapper {
+  background: url("./images/fon-up.png") center top no-repeat, url("./images/fon_bot.png") center bottom no-repeat;
+}
+
 a {
   color: inherit;
+}
+
+p {
+  margin-top: 0;
 }
 
 ul {
@@ -251,7 +259,7 @@ h3 {
   height: 530px;
   margin: 0px auto;
   width: 1148px;
-  margin-bottom: 130px;
+  margin-bottom: 197px;
 }
 
 .lastplay__rout {
@@ -330,10 +338,130 @@ h3 {
   background: #8F00FF;
 }
 
+.paginator__item:hover {
+  background: #8F00FF;
+  border-radius: 50%;
+}
+
+.about__block:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 489px;
+  height: 505px;
+  background: url("./images/about-us.jpg") center center / cover no-repeat;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+
+.about__content {
+  display: inline-block;
+  vertical-align: top;
+  width: 785px;
+  height: 455px;
+  padding: 70px 81px;
+  background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
+  margin-left: -139px;
+  margin-top: 97px;
+  border-radius: 5px;
+}
+
+.about__title {
+  margin-bottom: 37px;
+}
+
+.about__text {
+  line-height: 1.7;
+  margin-bottom: 40px;
+  margin-right: 121px;
+  min-height: 20px;
+}
+
+.about__text p {
+  margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0;
+}
+
+.button--blue {
+  height: 55px;
+  border: 1px solid #FFFFFF;
+  background: rgba(255, 255, 255, 0);
+}
+
 .footer {
-  height: 120px;
+  height: 146px;
   position: relative;
-  margin: auto;
-  margin-bottom: 0px;
-  width: 1148px;
+  margin-top: 16px;
+}
+
+.footer-container--content {
+  border-top: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__menu {
+  left: 289px;
+}
+
+.socials {
+  position: absolute;
+  top: 33px;
+  right: 275px;
+}
+
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+  background: center center no-repeat;
+}
+
+.socials__item--icon--telegramm .socials__link {
+  background-image: url("./images/telegram.png");
+}
+
+.socials__item--icon--telegramm .socials__link:hover {
+  background-image: url("./images/telegramm-hover.png");
+}
+
+.socials__item--icon--vk .socials__link {
+  background-image: url("./images/vk.png");
+}
+
+.socials__item--icon--vk .socials__link:hover {
+  background-image: url("./images/vk-hover.png");
+}
+
+.socials__item--icon--fb .socials__link {
+  background-image: url("./images/fb.png");
+}
+
+.socials__item--icon--fb .socials__link:hover {
+  background-image: url("./images/fb-hover.png");
+}
+
+.socials__item--icon--insta .socials__link {
+  background-image: url("./images/insta.png");
+}
+
+.socials__item--icon--insta .socials__link:hover {
+  background-image: url("./images/insta-hover.png");
+}
+
+.contacts__desc {
+  font-size: 11px;
+  color: #9A9A9A;
 }
