@@ -195,12 +195,12 @@ h2 {
 .new__header {
   height: 143px;
   width: 361px;
-  overflow: hidden;
 }
 
 .new__img {
-  max-width: 100%; 
+  width: 100%; 
   height: 100%;
+  object-fit: cover;
 }
 
 .new__content {
