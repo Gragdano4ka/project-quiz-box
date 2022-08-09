@@ -288,8 +288,7 @@ h3 {
   position: relative;
   border-radius: 4px;
   overflow: hidden;
-  margin-right: 27px;
-  margin-left: -5px;
+  margin-right: 17px;
 }
 
 .lastplay__rout:last-child {
@@ -373,6 +372,10 @@ h3 {
   border-radius: 50%;
 }
 
+.about {
+ margin-bottom: 53px;
+}
+
 .about__block:before {
   content: "";
   display: inline-block;
@@ -380,7 +383,6 @@ h3 {
   width: 489px;
   height: 505px;
   background: url("./images/about-us.jpg") center center / cover no-repeat;
-  margin-bottom: 100px;
   margin-left: -5px;
   border-radius: 5px;
 }
