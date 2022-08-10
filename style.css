@@ -46,18 +46,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  height: 120px;
-  margin: 27px 186px;
-  margin-bottom: 57px;
+  margin-bottom: 106px;
 }
 
 .header__container {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
-}
-
-.logo {
- margin-top: 6px;
+  align-items: center;
+  padding: 29px 0;
 }
 
 .menu {
@@ -85,19 +81,18 @@ h1, h2, h3, h4, h5, h6 {
 .contacts {
   font-style: normal;
   text-align: right;
-  top: 27px;
-  right: 3px;
 }
 
 .contacts__phone {
   text-decoration: none;
   font-size: 26px;
+  line-height: 1;
 }
 
 .contacts__workhors {
   color: #98A4A8;
   font-size: 13px;
-  line-height: 0.3;
+  line-height: 1;
 }
 
 .contacts__workhors:hover {
@@ -107,17 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 .hello {
   position: relative;
   margin: 0px auto;
-  width: 1148px;
-  height: 375px;
   margin-bottom: 194px;
-}
-
-.hello__container {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0;
 }
 
 .hello__title {
@@ -126,7 +111,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.08;
   margin-bottom: 22px;
   width: 650px;
-  margin-top: 5px;
 }
 
 .hello__text {
@@ -137,6 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button {
+  display: inline-block;
   background: #8F00FF;
   border-radius: 5px;
   padding: 18px 40px;
@@ -159,23 +144,13 @@ h2 {
 .new {
   position: relative;
   margin: 0px auto;
-  width: 1148px;
-  height: 550px;
   margin-bottom: 125px;
-}
-
-.new__container {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0;
 }
 
 .title--new {
   line-height: 1.42;
   margin-bottom: 51px;
-  display: inline-flex;
+  display: flex;
 }
 
 .new__img-title {
@@ -186,8 +161,9 @@ h2 {
 }
 
 .new__list {
-  display: inline-flex;
+  display: flex;
 }
+
 .new__card {
   background: #fff;
   min-height: 449px;
@@ -224,7 +200,7 @@ h2 {
   color: #000000;
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 23px;
+  margin-bottom: 20px;
 }
 
 .new__features {
@@ -235,8 +211,9 @@ h2 {
 }
 
 .new__feature {
-  display: inline-flex;
+  display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .new__feature-icon {
@@ -272,8 +249,6 @@ h2 {
   padding: 17px 29px;
   margin-bottom: 0px;
   border: 1px solid #8F00FF;
-  width: 135px;
-  height: 55px;
 }
 
 .button--90 {
@@ -292,20 +267,19 @@ h3 {
 }
 
 .lastplay {
-  height: 530px;
   margin: 0px auto;
   margin-bottom: 197px;
 }
 
 .lastplay__routes {
-  margin-bottom: 53px;
-  display: inline-flex;
+  margin-bottom: 46px;
+  display: flex;
   justify-content: space-between;
 }
 
 .lastplay__rout {
   width: 556px;
-  min-height: 399;
+  min-height: 399px;
   border-radius: 4px;
   overflow: hidden;
   margin-right: 21px;
@@ -393,10 +367,8 @@ h3 {
  justify-content: center;
 }
 
-.about__container {
-  display: inline-flex;
-  justify-content: flex-end;
-  width: 1127px;
+.about__block {
+  padding-top: 94px;
 }
 
 .about__block:before {
@@ -406,15 +378,17 @@ h3 {
   background: url("./images/about-us.jpg") center center / cover no-repeat;
   margin-left: -5px;
   border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .about__content {
+  position: relative;
   width: 785px;
-  height: 455px;
+  min-height: 455px;
   padding: 68px 81px;
   background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
-  margin-left: -139px;
-  margin-top: 74px;
   border-radius: 5px;
 }
 
@@ -444,10 +418,11 @@ h3 {
 }
 
 .footer {
-  height: 132px;
-  width: 1140px;
-  display: inline-flex;
+  width: 100%;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 44px 0;
 }
 
 .footer-container--content {
@@ -456,16 +431,12 @@ h3 {
   justify-content: center;
 }
 
-.logo--footer {
-  margin: 52px 0;
-}
-
 .footer__menu .menu__list {
   width: 355px;
 }
 
 .socials {
-  display: inline-flex;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
   margin-left: 46px;
